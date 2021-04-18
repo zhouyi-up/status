@@ -19,30 +19,6 @@ If you're still not quite sure what this is all about, read our introduction: [W
 
 > **TIP**: Click the <kbd>Watch</kbd> button on the top to be notified about releases containing new features and fixes.
 
-
-### Table of contents
-
-In this README, we will highlight the following elements of template-project creation:
-
-- [Getting started](#getting-started)
-- [Gradle configuration](#gradle-configuration)
-- [Plugin template structure](#plugin-template-structure)
-    - [Dependency on the Kotlin standard library](#dependency-on-the-kotlin-standard-library)
-- [Plugin configuration file](#plugin-configuration-file)
-- [Sample code](#sample-code):
-    - listeners – project and dynamic plugin lifecycle
-    - services – project-related and application-related services
-    - actions – basic action with shortcut binding
-- [Predefined Run/Debug configurations](#predefined-rundebug-configurations)
-- [Continuous integration](#continuous-integration) based on GitHub Actions
-    - [Dependencies management](#dependencies-management) with dependabot
-    - [Changelog maintenance](#changelog-maintenance) with the Gradle Changelog Plugin
-    - [Release flow](#release-flow) using GitHub Releases
-    - [Publishing the plugin](#publishing-the-plugin) with the Gradle IntelliJ Plugin
-- [FAQ](#faq)
-- [Useful links](#useful-links)
-
-
 ## Getting started
 
 Before we dive into plugin development and everything related to it, it's worth mentioning the benefits of using GitHub Templates. By creating a new project using the current template, you start with no history and no reference to this repository. This allows you to create a new repository easily without having to copy and paste previous content, clone repositories, or clear the history manually.
