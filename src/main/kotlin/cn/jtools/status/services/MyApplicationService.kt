@@ -1,6 +1,6 @@
-package com.github.zhouyiup.status.services
+package cn.jtools.status.services
 
-import com.github.zhouyiup.status.MyBundle
+import cn.jtools.status.MyBundle
 
 class MyApplicationService {
 

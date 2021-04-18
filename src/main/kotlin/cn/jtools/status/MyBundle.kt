@@ -1,4 +1,4 @@
-package com.github.zhouyiup.status
+package cn.jtools.status
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

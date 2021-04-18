@@ -1,19 +1,21 @@
 <idea-plugin>
-    <id>com.github.zhouyiup.status</id>
-    <name>status</name>
-    <vendor>zhouyi-up</vendor>
+    <id>cn.jtools.status</id>
+    <name>Status</name>
+    <vendor>jun</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.zhouyiup.status.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.zhouyiup.status.services.MyProjectService"/>
+        <applicationService serviceImplementation="cn.jtools.status.services.MyApplicationService"/>
+        <projectService serviceImplementation="cn.jtools.status.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.zhouyiup.status.listeners.MyProjectManagerListener"
+        <listener class="cn.jtools.status.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
+        <listener class="cn.jtools.status.listeners.MyApplicationManagerListener"
+                  topic="com.intellij.openapi.application.ApplicationListener"/>
     </applicationListeners>
 </idea-plugin>
