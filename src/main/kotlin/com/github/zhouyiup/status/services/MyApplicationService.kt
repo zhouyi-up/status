@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.zhouyiup.status.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.zhouyiup.status.MyBundle
 
 class MyApplicationService {
 
